@@ -38,10 +38,17 @@ class AnimeDatabase {
         steins.description = "Adapted from the critically acclaimed visual novel by 5pb. and Nitroplus, Steins;Gate takes Okabe through the depths of scientific theory and practicality. Forced across the diverging threads of past and present, Okabe must shoulder the burdens that come with holding the key to the realm of time"
         steins.rating = 5
         steins.status = AnimeStatusType.watched
+     
+        var bleach = Anime()
+        bleach.title = "Bleach"
+        bleach.description = "The story revolves around a high school student called Kurosaki Ichigo, who can see ghosts."
+        bleach.rating = 5
+        bleach.status = AnimeStatusType.toWatch
         
         animes.append(saikiKusuo)
         animes.append(melancoly)
         animes.append(steins)
+        animes.append(bleach)
     }
 
     // MARK: database functions
